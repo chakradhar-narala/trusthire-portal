@@ -1,0 +1,13 @@
+{
+  "name": "trusthire-portal-root",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install-all": "npm install",
+    "build-frontend": "npm run build --workspace=frontend",
+    "start-backend": "npm start --workspace=backend"
+  }
+}
