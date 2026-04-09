@@ -1,0 +1,2 @@
+/* Global base only — all styles live in styles.css */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
